@@ -1,4 +1,5 @@
-const { addNote, addBookmark, getNotes, deleteNote, getBookmarks, deleteBookmark, register, logIn, favNote, favBookmark, unfavNote, unfavBookmark } = require("../Controller/user")
+const { addNote, addBookmark, getNotes, deleteNote, getBookmarks, deleteBookmark, register, logIn, favNote, favBookmark, unfavNote, unfavBookmark } = require("../Controller/User")
+
 
 const route = require("express").Router()
 
