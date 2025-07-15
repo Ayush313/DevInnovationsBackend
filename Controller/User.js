@@ -4,7 +4,7 @@ const bcrpyt = require("bcryptjs")
 const saltrounds = 10
 const secretkey = "permsecret"
 const jwt = require("jsonwebtoken")
-const { noteModel, bookmarkModel, signupModel } = require("../database/model")
+const { noteModel, bookmarkModel, signupModel } = require("../database/Model")
 
 async function addNote(req, res) {
     const noteData = req.body
